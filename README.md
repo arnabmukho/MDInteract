@@ -29,8 +29,8 @@ pip install mdtraj numpy pandas matplotlib
 2. **Edit User Settings in the Script:**  
    At the top of the script, adjust parameters as needed:
    ```python
-   gro_file = "md.gro"          # Topology file (GROMACS .gro)
-   xtc_file = "md.xtc"    # Trajectory file (.xtc)
+   gro_file = "md.gro"              # Topology file (GROMACS .gro)
+   xtc_file = "md.xtc"              # Trajectory file (.xtc)
    stride = 10                      # Analyze every 10th frame
    chunk_size = 5                   # Number of frames per chunk
    output_fig = "interaction_bargraph.png"  # Output plot filename
